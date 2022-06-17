@@ -1,0 +1,20 @@
+.footer {
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  background-color: #cdcdcd;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  background: url(../../../assets/image/auth-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tile-footer {
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+}

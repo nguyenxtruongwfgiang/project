@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="title">
+        <h2>Sign in</h2>
+    </div>
+    <form class="form-group" [formGroup]="loginForm" (ngSubmit)="signIn()">
+        <div class="user-details">
+            <label class="details">USERNAME</label>
+            <input type="text" id="user" formControlName="username" placeholder="Please enter your username" required>
+            <label class="details">PASSWORD</label>
+            <input type="password" formControlName="password" placeholder="Pleaser enter your password" required>
+        </div>
+        <div class="mes-err">
+            <span *ngIf="errorFormNull" class="text-danger"> {{errorFormNull}} </span>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+    <div class="sign-in" style="display: flex; flex-wrap: wrap; justify-content: center;
+    align-items: center; margin: 0px; padding: 0px;">
+        <p id="question" style="color: #fff; font-size: 14px; padding: 15px; font-weight: bold">Don't have account?</p>
+        <a routerLink="../signup" id="signin-btn"
+            style="font-weight: bold; text-decoration: none; cursor: pointer; color: #f49120;">Sign up</a>
+    </div>
+</div>

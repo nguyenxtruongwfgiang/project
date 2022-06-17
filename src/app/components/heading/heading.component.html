@@ -1,0 +1,53 @@
+<div class="menu-top">
+    <ul class="menu-top-left">
+        <li><a href="#">Seller Centre</a></li>
+        <li><a href="#">Dowload</a></li>
+        <li><a id="fl">Follow Us On</a>
+            <a (click)="goToLink('https://www.facebook.com/nguyenxtruongwfgiang/')" style="cursor:pointer"
+                target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a (click)="goToLink('https://www.instagram.com/nguyenx.truongwf_giang/')" style="cursor:pointer"
+                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+    </ul>
+    <ul class="menu-top-right">
+        <li>
+            <a href="#"><i class="fa-solid fa-bell"></i>Notifications</a>
+        </li>
+        <li><a href="#">
+                <i class="fa-solid fa-circle-question"></i>Help</a></li>
+        <li><a *ngIf="!users" routerLink="../signin">Sign In</a></li>
+        <li><a *ngIf="!users" routerLink="../signup">Sign Up</a></li>
+        <li><a *ngIf="users" (click)="logOutUser()" style="padding: 0; margin: 0; cursor: pointer;">LogOut</a></li>
+        <li><a *ngIf="users" id="username">{{users.username}}</a></li>
+    </ul>
+    <div class="search-bar-cart-icon">
+        <a class="title-icon" routerLink="home"><i class="fa-solid fa-bowl-food">
+            </i>vietnamese food
+        </a>
+        <div class="search-bar" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <input style="padding: 12px;" type="text" id="search-button" [(ngModel)]="searchTerm" (keyup)="search($event)"
+                placeholder="type to search">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="btn-primary" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 0px;">
+                <a (click)="checkLogin()" routerLink="../cart"><i class="fa-solid fa-cart-shopping"
+                        style="margin-left: 30px;"></i></a>
+                <!-- <div class="cart-nmb" style="color: #fff; font-weight: bold;" [ngModel]="totalItemInCart" *ngIf="users">{{totalItemInCart}}</div> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div class="product-menu">
+        <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <li><a routerLink="../products">All Products</a></li>
+            <li *ngFor="let category of categoryList"><a class="top-product"
+                    (click)="setCategoryId(category.id)">{{category.name}}</a></li>
+            [routerLink]="['../products', category.id]"
+            <li><a class="top-product" href="#">BreakFast</a></li>
+            <li><a class="top-product" href="#">Cake</a></li>
+            <li><a class="top-product" href="#">Fruit</a></li>
+            <li><a class="top-product" href="#">Broken Rice</a></li>
+            <li><a class="top-product" href="#">Drinks</a></li>
+            <li><a class="top-product" href="#">Noodle</a></li>
+            <li><a class="top-product" href="#">Bread</a></li>
+        </ul>
+    </div> -->
+</div>

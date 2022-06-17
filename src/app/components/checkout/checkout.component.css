@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Popins", sans-serif;
+  color: white;
+}
+input{
+    color: black;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container {
+  border-radius: 10px;
+  padding: 0px;
+  margin: auto !important;
+  width: 100%;
+  max-width: 1000px;
+  border: none;
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+  background: url(../../../assets/image/auth-bg.png);
+  background-repeat: no-repeat;
+  padding: 25px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+    width: 65%;
+    float: left;
+}
+.right{
+    width: 32%;
+    float: right;
+    bottom: 0;
+}
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0px;
+}
+.container input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.container input:focus {
+  border-color: #00ff00;
+}
+.user-details .details {
+  font-weight: 500;
+  margin: 15px;
+}
+button {
+  height: 35px;
+  width: 150px;
+  background-color: #f49120;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+/* button:hover {
+    background-color: #f3a64d;
+  } */
+.text-danger {
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  color: red;
+  font-size: 12px;
+}
+.mes-err {
+  margin-top: 3px;
+}
+option{
+  padding: 5px;
+  font-family: "Popins", sans-serif;
+}
+select{
+  padding: 5px;
+  font-family: "Popins", sans-serif;
+}

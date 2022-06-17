@@ -1,0 +1,242 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Sinh Tố Lúa Mạch Kem Cheese (Beer)",
+            "price": 10000,
+            "description": "Thời tiết này nếu là bạn tốt thì hãy mới nhau 1 cốc sinh tố lúa mạch sữa kem Cheese",
+            "image": "https://www.habeco.com.vn/product/biahanoi.png",
+            "categoryID": "1"
+        },
+        {
+            "id": 2,
+            "name": "Phở (Noodle Soup)",
+            "price": 30000,
+            "description": "Pho Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_vietnam-pho-bo-beef-shutterstock_331182839_1308b124a9.jpeg",
+            "categoryID": "1"
+        },
+        {
+            "id": 3,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryID": "1"
+        },
+        {
+            "id": 4,
+            "name": "Ga Ran ",
+            "price": 30000,
+            "description": "Ga Ran Full Topping",
+            "image": "https://cdn.shortpixel.ai/spai/q_lossless+w_600+to_auto+ret_img/https://www.thatlangon.com/wp-content/uploads/2020/07/90333949_1866387380162151_5717023593246752768_n.jpg",
+            "categoryID": "1"
+        },
+        {
+            "id": 5,
+            "name": "Com Tam (Broken Rice)",
+            "price": 30000,
+            "description": "Com Tam Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_com-tam-vietnam-food-shutterstock_526795717_bc97f5bf23.jpeg",
+            "categoryID": "1"
+        },
+        {
+            "id": 6,
+            "name": "Bun Dau Mam Tom",
+            "price": 52000,
+            "description": "",
+            "image": "https://i.pinimg.com/564x/1f/fe/48/1ffe486e56dbe719b017aadeaa3af296.jpg",
+            "categoryID": "1"
+        },
+        {
+            "id": 7,
+            "name": "Nem Chua Ran",
+            "price": 120000,
+            "description": "Combo 20 chiếc nem chua rán",
+            "image": "https://i.pinimg.com/564x/ba/9e/70/ba9e70a1c426255fde3b9e8e8a76f3e0.jpg",
+            "categoryID": "1"
+        },
+        {
+            "id": 8,
+            "name": "Búng Bò Huế",
+            "price": 60000,
+            "description": "Combo bún đầy đủ + pepsi",
+            "image": "https://i.pinimg.com/564x/5d/0e/57/5d0e573057f50a03418c2d449e5366a7.jpg",
+            "categoryID": "1"
+        },
+        {
+            "id": 9,
+            "name": "Chan Ga Xa Tac",
+            "price": 120000,
+            "description": "Chân gà ngâm sả ớt kèm xoài + gia vị chấm chua cay - Túi lớn 9 chân to",
+            "image": "https://i.pinimg.com/564x/13/e0/1f/13e01f9f932793bbdb857b03287e8c1c.jpg",
+            "categoryID": "1"
+        },
+        {
+            "id": 10,
+            "name": "Goi Cuon",
+            "price": 15000,
+            "description": "Goi Cuon Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/medium_goi-cuon-shutterstock_1160846143_0ab6a5298d.jpeg",
+            "categoryID": "1"
+        },
+        {
+            "id": 11,
+            "name": "Xoi",
+            "price": 15000,
+            "description": "Sticky Rice Full Topping",
+            "image": "https://i0.wp.com/www.wokandkin.com/wp-content/uploads/2020/03/Xoi-Man-Far-saved-for-web.png?w=600&ssl=1",
+            "categoryID": "2"
+        },
+        {
+            "id": 12,
+            "name": "Phở (Noodle Soup)",
+            "price": 30000,
+            "description": "Pho Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_vietnam-pho-bo-beef-shutterstock_331182839_1308b124a9.jpeg",
+            "categoryID": "2"
+        },
+        {
+            "id": 13,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryID": "2"
+        },
+        {
+            "id": 14,
+            "name": "Banh Cuon",
+            "price": 15000,
+            "description": "Banh Cuốn Full Topping",
+            "image": "https://i.pinimg.com/564x/fc/67/ce/fc67ce9b712b84c25f52a32b2a904ffb.jpg",
+            "categoryID": "2"
+        },
+        {
+            "id": 15,
+            "name": "Com Tam (Broken Rice)",
+            "price": 30000,
+            "description": "Com Tam Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_com-tam-vietnam-food-shutterstock_526795717_bc97f5bf23.jpeg",
+            "categoryID": "2"
+        },
+        {
+            "id": 16,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryID": "3"
+        },
+        {
+            "id:": 17,
+            "name": "Hamburger",
+            "price": 20000,
+            "description": "2 má đùi gà giòn + 1 khoai + 1 đồ uống",
+            "image": "https://i.pinimg.com/564x/93/cb/ff/93cbff6565536bc464c78fb968b7385d.jpg",
+            "categoryID": "3"
+        },
+        {
+            "id": 18,
+            "name": "SandWich",
+            "price": 30000,
+            "description": "...................................",
+            "image": "https://i.pinimg.com/564x/4b/8d/af/4b8dafc3fc3b5ca0dd9a254fa3027550.jpg",
+            "categoryID": "3"
+        },
+        {
+            "id": 19,
+            "name": "Mang Cut (Mangosteen)",
+            "price": 70000,
+            "description": "70.000đ / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 20,
+            "name": "Thanh Long (Dragon Fruit)",
+            "price": 33000,
+            "description": "33.000đ / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 21,
+            "name": "Xoai",
+            "price": 8000,
+            "description": "8.000đ / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 22,
+            "name": "Chom Chom (Rambutan)",
+            "price": 50000,
+            "description": "50.000đ / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 23,
+            "name": "Nhan (Longan)",
+            "price": 15000,
+            "description": "15.000đ / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 23,
+            "name": "Buởi (Pomelo)",
+            "price": 15000,
+            "description": "15.000 / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "id": 24,
+            "name": "Roi (Rose Apple)",
+            "price": 15000,
+            "description": "15.000 / 1kg",
+            "categoryID": "4"
+        },
+        {
+            "rice": [
+                {}
+            ]
+        },
+        {
+            "drinks": [
+                {}
+            ]
+        },
+        {
+            "noodles": [
+                {}
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Night Food"
+        },
+        {
+            "id": "2",
+            "name": "Breakfasts"
+        },
+        {
+            "id": "3",
+            "name": "Bread"
+        },
+        {
+            "id": "4",
+            "name": "Fruits"
+        },
+        {
+            "id": "5",
+            "name": "Rice"
+        },
+        {
+            "id": "6",
+            "name": "Drinks"
+        },
+        {
+            "id": "7",
+            "name": "Noodles"
+        }
+    ]
+}

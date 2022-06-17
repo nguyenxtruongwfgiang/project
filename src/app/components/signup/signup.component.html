@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="title">
+        <h2>Create an account</h2>
+        <span style="margin-bottom: 10px;">Please create an account to continue using our service</span>
+    </div>
+    <form class="form-group" [formGroup]="signupForm" (ngSubmit)="signUp();">
+        <div class="user-details">
+            <label class="details">USERNAME</label>
+            <input type="text" id="user" formControlName="username" placeholder="Please enter your username"
+                required><br>
+            <div class="mes-err">
+                <span class="text-danger"
+                    *ngIf="signupForm.controls['username'].dirty && signupForm.hasError('required', 'username')">*
+                    Username
+                    is required</span>
+            </div>
+            <label class="details">PASSWORD</label>
+            <input type="password" formControlName="password" placeholder="Pleaser enter your password" minlength="8"
+                required><br>
+            <div class="mes-err">
+                <span class="text-danger"
+                    *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required', 'password')">
+                    * Passwordis required</span>
+                <span class="text-danger" *ngIf="password?.errors?.['minlength']">* Password must be at least 8
+                    characters</span>
+                <!-- *ngIf="password?.errors?.['minlength']" -->
+            </div>
+            <label class="details">CONFIRM PASSWORD</label>
+            <input type="password" formControlName="confirmPassword" placeholder="Confirm password" minlength="8"
+                required><br>
+            <div class="mes-err">
+                <span class="text-danger"
+                    *ngIf="signupForm.controls['confirmPassword'].dirty && signupForm.hasError('required', 'confirmPassword')">
+                    * Confirm Password is required</span>
+                <span class="text-danger" *ngIf="confirmPassword?.errors?.['minlength']">* Password must be at least 8
+                    characters</span>
+                <span *ngIf="password?.value != confirmPassword?.value" class="text-danger">* Passwords do not
+                    match</span>
+            </div>
+            <!-- <label class="details">EMAIL</label>
+            <input type="text" id="email" formControlName="email" placeholder="Please enter your email address" required>
+            <div class="mes-err">
+                <span class="text-danger"
+                    *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required', 'email')">* Email is
+                    required</span>
+                <span class="text-danger" *ngIf="email?.errors?.['pattern']">* Pleser entter a valid
+                    email</span>
+            </div> -->
+            <label class="details">PHONE NUMBER</label>
+            <input type="text" id="phone" formControlName="phoneNumber" placeholder="Please enter a phone number"
+                required><br>
+            <div class="mes-err">
+                <span class="text-danger"
+                    *ngIf="signupForm.controls['phoneNumber'].dirty && signupForm.hasError('required', 'phoneNumber')">*
+                    Phone Number is required</span>
+            </div>
+        </div>
+        <span *ngIf="errorFormNull" class="text-danger"> {{errorFormNull}} </span>
+        <button type="submit" class="btn btn-primary">Create an account</button>
+    </form>
+    <div class="sign-in" style="display: flex; flex-wrap: wrap; justify-content: center;
+    align-items: center;">
+        <p id="question" style="color: #fff; font-size: 14px; padding: 15px; font-weight: bold;">Already have an
+            account?</p>
+        <a routerLink="../signin" id="signin-btn" style="font-weight: bold; text-decoration: none; cursor: pointer; color: #f49120">Sign
+            In</a>
+    </div>
+</div>

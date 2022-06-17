@@ -1,0 +1,101 @@
+.menu-top {
+  height: 120px;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.menu-top .menu-top-left li {
+  left: 10px;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 1%;
+}
+.menu-top .menu-top-right li {
+  right: 10px;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-right: 1%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+.notification {
+  font-size: 12px;
+}
+i {
+  font-size: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.search-bar-cart-icon {
+  width: 800px;
+  height: 80px;
+  display: inline-block;
+  margin-top: 1%;
+}
+.fa-bowl-food {
+  font-size: 50px;
+}
+#search-button {
+  width: 600px;
+  height: 40px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  border: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva;
+  font-size: 17px;
+  color: #333;
+}
+#search-button:focus{
+  outline: none;
+}
+#search {
+  width: 50px;
+  height: 40px;
+  border-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  background-color: #fff;
+}
+#search:hover {
+  cursor: pointer;
+}
+.fa-cart-shopping {
+  float: right;
+  font-size: 30px;
+}
+.product-menu ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 3px;
+}
+.product-menu ul li a {
+  color: #cdcdcd;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+#username:hover{
+  color: white;
+}
+#fl:hover{
+  color: white;
+}

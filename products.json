@@ -1,0 +1,418 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Sinh Tố Lúa Mạch Kem Cheese (Beer)",
+            "price": 10000,
+            "description": "Thời tiết này nếu là bạn tốt thì hãy mới nhau 1 cốc sinh tố lúa mạch sữa kem Cheese",
+            "image": "https://www.habeco.com.vn/product/biahanoi.png",
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "name": "Phở (Noodle Soup)",
+            "price": 30000,
+            "description": "Pho Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_vietnam-pho-bo-beef-shutterstock_331182839_1308b124a9.jpeg",
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryId": 1
+        },
+        {
+            "id": 4,
+            "name": "Ga Ran ",
+            "price": 30000,
+            "description": "Ga Ran Full Topping",
+            "image": "https://cdn.shortpixel.ai/spai/q_lossless+w_600+to_auto+ret_img/https://www.thatlangon.com/wp-content/uploads/2020/07/90333949_1866387380162151_5717023593246752768_n.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 5,
+            "name": "Com Tam (Broken Rice)",
+            "price": 30000,
+            "description": "Com Tam Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_com-tam-vietnam-food-shutterstock_526795717_bc97f5bf23.jpeg",
+            "categoryId": 1
+        },
+        {
+            "id": 6,
+            "name": "Bun Dau Mam Tom",
+            "price": 52000,
+            "description": "",
+            "image": "https://i.pinimg.com/564x/1f/fe/48/1ffe486e56dbe719b017aadeaa3af296.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 7,
+            "name": "Nem Chua Ran",
+            "price": 120000,
+            "description": "Combo 20 chiếc nem chua rán",
+            "image": "https://i.pinimg.com/564x/ba/9e/70/ba9e70a1c426255fde3b9e8e8a76f3e0.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 8,
+            "name": "Búng Bò Huế",
+            "price": 60000,
+            "description": "Combo bún đầy đủ + pepsi",
+            "image": "https://i.pinimg.com/564x/5d/0e/57/5d0e573057f50a03418c2d449e5366a7.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 9,
+            "name": "Chan Ga Xa Tac",
+            "price": 120000,
+            "description": "Chân gà ngâm sả ớt kèm xoài + gia vị chấm chua cay - Túi lớn 9 chân to",
+            "image": "https://i.pinimg.com/564x/13/e0/1f/13e01f9f932793bbdb857b03287e8c1c.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 10,
+            "name": "Goi Cuon",
+            "price": 15000,
+            "description": "Goi Cuon Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/medium_goi-cuon-shutterstock_1160846143_0ab6a5298d.jpeg",
+            "categoryId": 1
+        },
+        {
+            "id": 11,
+            "name": "Xoi",
+            "price": 15000,
+            "description": "Sticky Rice Full Topping",
+            "image": "https://i0.wp.com/www.wokandkin.com/wp-content/uploads/2020/03/Xoi-Man-Far-saved-for-web.png?w=600&ssl=1",
+            "categoryId": 2
+        },
+        {
+            "id": 12,
+            "name": "Phở (Noodle Soup)",
+            "price": 30000,
+            "description": "Pho Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_vietnam-pho-bo-beef-shutterstock_331182839_1308b124a9.jpeg",
+            "categoryId": 2
+        },
+        {
+            "id": 13,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryId": 2
+        },
+        {
+            "id": 14,
+            "name": "Banh Cuon",
+            "price": 15000,
+            "description": "Banh Cuốn Full Topping",
+            "image": "https://i.pinimg.com/564x/fc/67/ce/fc67ce9b712b84c25f52a32b2a904ffb.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 15,
+            "name": "Com Tam (Broken Rice)",
+            "price": 30000,
+            "description": "Com Tam Full Topping",
+            "image": "https://deih43ym53wif.cloudfront.net/large_com-tam-vietnam-food-shutterstock_526795717_bc97f5bf23.jpeg",
+            "categoryId": 2
+        },
+        {
+            "id": 16,
+            "name": "Banh Mi",
+            "price": 15000,
+            "description": "Rau mùi, dưa chuột tương ớt tương cà",
+            "image": "https://deih43ym53wif.cloudfront.net/large_banh-mi-food-vietnam-shutterstock_461729479_86b3a56af3.jpeg",
+            "categoryId": 3
+        },
+        {
+            "id:": 17,
+            "name": "Hamburger",
+            "price": 20000,
+            "description": "2 má đùi gà giòn + 1 khoai + 1 đồ uống",
+            "image": "https://i.pinimg.com/564x/93/cb/ff/93cbff6565536bc464c78fb968b7385d.jpg",
+            "categoryId": 3
+        },
+        {
+            "id": 18,
+            "name": "SandWich",
+            "price": 30000,
+            "description": "...................................",
+            "image": "https://i.pinimg.com/564x/4b/8d/af/4b8dafc3fc3b5ca0dd9a254fa3027550.jpg",
+            "categoryId": 3
+        },
+        {
+            "id": 19,
+            "name": "Mang Cut (Mangosteen)",
+            "price": 70000,
+            "description": "70.000đ / 1kg",
+            "categoryId": 4,
+            "image": "https://i.pinimg.com/564x/04/ef/3d/04ef3dafacfb18382b605da139b4c1b9.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Thanh Long (Dragon Fruit)",
+            "price": 33000,
+            "description": "33.000đ / 1kg",
+            "categoryId": 4,
+            "image": "https://i.pinimg.com/564x/1f/3e/c1/1f3ec1e256bafe4415dc443d7c43f9e5.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Xoai",
+            "price": 8000,
+            "description": "8.000đ / 1kg",
+            "categoryId": 4,
+            "image": "https://i.pinimg.com/564x/8f/62/b7/8f62b76916ce48f1d45875e993f30a9c.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Chom Chom (Rambutan)",
+            "price": 50000,
+            "description": "50.000đ / 1kg",
+            "categoryId": 4,
+            "image": "https://vietnam.travel/sites/default/files/inline-images/fruits%20in%20vietnam-5.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Nhan (Longan)",
+            "price": 15000,
+            "description": "15.000đ / 1kg",
+            "categoryId": 4,
+            "image": "https://vietnam.travel/sites/default/files/inline-images/fruits%20in%20vietnam.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Buởi (Pomelo)",
+            "price": 15000,
+            "description": "15.000 / 1kg",
+            "categoryId": 4,
+            "image": "https://vietnam.travel/sites/default/files/inline-images/Vietnam%20Fruit%20Guide-2.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Roi (Rose Apple)",
+            "price": 15000,
+            "description": "15.000 / 1kg",
+            "categoryId": 4,
+            "image": "https://vietnam.travel/sites/default/files/inline-images/Must%20try%20fruits%20Vietnam%20Tourism.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Com Tam (Broken Rice)",
+            "price": 30000,
+            "description": "Com Tam Full Topping",
+            "image": "https://www.vietnamonline.com/media/uploads/froala_editor/images/Ta%CC%82%CC%81m%3ABroken%20rice%20%E2%80%93%20Ho%20Chi%20Minh%20City.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 26,
+            "name": "Com Dua",
+            "price": 30000,
+            "description": "Com dua full topping",
+            "image": "https://www.vietnamonline.com/media/uploads/froala_editor/images/Coconut%20Rice%20%E2%80%93%20Ben%20Tre.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 27,
+            "name": "Com Lam (Bamboo Rice)",
+            "price": 30000,
+            "description": "Com lam full topping",
+            "image": "https://www.vietnamonline.com/media/uploads/froala_editor/images/Com%20Lam.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 28,
+            "name": "Com chay (Burned Rice)",
+            "price": 50000,
+            "description": "Com Chay Full Topping",
+            "image": "https://www.vietnamonline.com/media/uploads/froala_editor/images/burned%20rice%20%E2%80%93%20Ninh%20Binh.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 29,
+            "name": "Com Ga (Rice Chicken)",
+            "price": 100000,
+            "description": "Com ga Hoi An",
+            "image": "https://www.vietnamonline.com/media/uploads/froala_editor/images/Chicken%20Rice%20in%20Ho%CC%A3%CC%82i%20An.jpg",
+            "categoryId": 5
+        },
+        {
+            "drinks": [
+                {
+                    "id": 30,
+                    "name": "Dừa Tươi (Fresh Coconut)",
+                    "price": 20000,
+                    "description": "Most drinks in Vietnam, including beer, are usually served over ice. In the past, refrigeration wasn't common, so drinks were room temperature until poured over ice, and in the always hot-and-steamy south of Vietnam, a warm beer or soft drink doesn't really hit the spot.",
+                    "image": "https://www.seriouseats.com/thmb/6mAkhd0_RzTNAPsMMJxvQeSGPx8=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-coconut-barbara-adam-238649851ccb4eaaa3b732c0734f6d45.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 31,
+                    "name": "Sinh Tố (Fruit Smoothie)",
+                    "price": 20000,
+                    "description": "Smoothies are everywhere in Vietnam, and we're not just talking strawberry-banana. You'll find smoothies with fresh dragonfruit, custard apple, and jackfruit, along with ice and condensed milk or yogurt. My husband always orders a sinh tố bơ (avocado smoothie). My favorite is the sinh tố mãng cầu (soursop smoothie), a refreshing sweet-and-tart treat made from a fruit that's native to South and Central America and popular in Southeast Asia for a creamy flavor reminiscent of both strawberries and pineapples.",
+                    "image": "https://www.seriouseats.com/thmb/xJ2dmr0L4yP2LPG3B_rrpGMIjhE=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-sinh-to-barbara-adam-e06fdc94e8d8405caf20abea4440af6c.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 32,
+                    "name": "Nước Sâm (Herbal Tea)",
+                    "price": 10000,
+                    "description": "This sweet and nutty Vietnamese herbal tea is usually served over ice, making it perfect to sip in the chaos and noise of a Vietnamese wet market on a steamy day. Believed to have 'cooling' properties according to Chinese medicine, the most basic nước sâm recipe contains sugar cane, nettle leaves, grass roots and corn silk—an illustration of the Vietnamese aversion to wasting anything. Variations of this drink can also include dried longan, the flower of the sawtooth herb (also known as spiky coriander/cilantro), and roasted water chestnuts.",
+                    "image": "https://www.seriouseats.com/thmb/ieJh9FGqsIUKrM7BK1QfBqsSvvg=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-nuoc-sam-barbara-adam-ae4be25114db4028a3484db8d9134b10.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 33,
+                    "name": "Nước Mía (Sugar Cane Juice)",
+                    "price": 5000,
+                    "description": "Not as sickly sweet as you'd expect, sugar cane juice is another drink that's considered 'cooling'. It's usually sold by street vendors, who use electric squashing machines, not unlike an old-fashioned wringer, to squeeze the juice from stalks of sugar cane",
+                    "image": "https://www.seriouseats.com/thmb/10RNOdAf5DNa230-pMH7WJrjgVg=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-sugar-cane-juice-barbara-adam-158cc6a460584042b97e1b4b8fa7e4cc.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 34,
+                    "name": "Trà Atisô (Artichoke Tea)",
+                    "price": 10000,
+                    "description": "The go-to drink for hungover Vietnamese men, trà atisô is believed to have liver-cleansing and detoxifying properties. There are two versions of the tea, which is usually served with ice—the sweetened yellowish version made from the artichoke flower and the intensely bitter black version made from the artichoke stems",
+                    "image": "https://www.seriouseats.com/thmb/x93Fks4cfAZAz-KEutaEuSaKXXI=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-tra-atiso-barbara-adam-144d93e8701b43728dcf425fcf496b4f.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 35,
+                    "name": "Soda Chanh (Lime Soda)",
+                    "price": 20000,
+                    "description": "Soda chanh hits the spot on a steamy day: essentially, it's a fizzy homemade limeade that's usually served partially prepared. You're served a glass full of ice with sugar and sometimes lime juice in the bottom, with the can of club soda on the side",
+                    "image": "https://www.seriouseats.com/thmb/LMCZ_c9u4SiyEEM7Db2Uyigl3lU=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-soda-chanh-barbara-adam-e22124c14cb34564b289fc2ab83f6c7b.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 36,
+                    "name": "Rượu Nếp Cẩm (Sticky Rice Wine)",
+                    "price": 20000,
+                    "description": "Drinking the hard stuff in Vietnam is for the most part considered a man's domain. Rice wine, which clocks in at around 29.5% alcohol, is the traditional masculine tipple and drinking it is a social activity (a very social activity). Groups of friends will gather to drink rice wine out of a communal shot glass or two.",
+                    "image": "https://www.seriouseats.com/thmb/7gLO9D99um8-T2I1HovLpGL9LeI=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-rice-wine-barbara-adam-c5ec9de840804040bb0e2fb3aacd2c17.jpg",
+                    "categoryId": 6
+                },
+                {
+                    "id": 37,
+                    "name": "Cà Phê (Coffee)",
+                    "price": 20000,
+                    "description": "Vietnam is the world's biggest producer of Robusta coffee, a variety of bean that most coffee experts consider inferior to the Arabica type, thanks to its bitter and acrid tendencies. But the Vietnamese people know how to make the most of what they have. Local coffee beans are roasted with butter and fish sauce to bring out chocolate notes in the final brew.",
+                    "image": "https://www.seriouseats.com/thmb/fU45nVJXT8PUH5311LT8P2Cr5pU=/770x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__08__20140805-vietnam-drinks-ca-phe-sua-da-barbara-adam-5f18e633bef544acbc4ad90c485ddc07.jpg",
+                    "categoryId": 6
+                }
+            ]
+        },
+        {
+            "noodles": [
+                {
+                    "id": 38,
+                    "name": "Roasted Pork with Cao Lau Noodles (Cao lầu)",
+                    "price": 30000,
+                    "description": "Cao lầu is a signature dish from Hội An consisting of noodles made from fresh, locally grown rice, lye solution made with ashes of local trees, and water from the local well (Ba Le). Along with the steamed rice noodles, a bowl of cao lầu also consists of thinly sliced roasted pork (char siu), greens, bean sprouts, croutons that are made with the same ingredients as the noodles, and just a splash of flavorful stock.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/bee755203288475cafff1f169cf9d18d.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 39,
+                    "name": "Fermented Fish Noodle Soup (Bún mắm)",
+                    "price": 30000,
+                    "description": "Bún mắm is a traditional Vietnamese dish originating from the province of Soc Trang. The dish consists of bún rice vermicelli noodles, the murky, salty, and fermented fish-flavored mắm broth, squid, shrimp, catfish, eggplant (which soaks up the broth), fish cakes, and roasted pork belly.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/91631984b9d0437f88f117ed8d6c9e61.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 40,
+                    "name": "Chicken Pho (Phở Gà)",
+                    "price": 40000,
+                    "description": "Phở gà is a traditional Vietnamese pho variety made with chicken. It can usually be ordered as bình thường (normal) with white breast meat, dark meat, fat, and skin, or gà nạc (lean chicken) with sliced breast meat.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/42e1894d291f4bfe9c9fe46ae6323385.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 41,
+                    "name": "Vietnamese Thick Noodle Soup (Bánh canh)",
+                    "price": 30000,
+                    "description": "Bánh canh is a traditional Vietnamese noodle soup. The thick noodles are made from tapioca or rice flour, while the soup is prepared with different kinds of ingredients such as ham (bánh canh gio heo), snakehead fish (bánh canh ca loc), or crab (bánh canh cua).",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/6f4d2ee0cc59436585a27ae5360b4627.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 42,
+                    "name": "Grilled Pork and Rice Vermicelli (Bún thịt nướng)",
+                    "price": 40000,
+                    "description": "This Vietnamese dish combines marinated grilled pork, rice vermicelli noodles, and fresh leafy green vegetables and herbs. The ingredients are usually placed in a bowl and are then combined with nước chấm – a fish sauce that is typically enriched with lime or lemon juice, water, and sugar.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/63aaf04c942d480aab8a3be77015e8d1.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 43,
+                    "name": "Grilled Pork Meatballs with Vermicelli Noodles (Bún chả)",
+                    "price": 50000,
+                    "description": "Bún chả is a pork and noodle dish that is intricately connected to Hanoi, where it is believed to have originated. The dish combines three elements: a bowl of grilled pork meatballs served in a cold broth, a plate of rice noodles, and a combination of various fresh greens such as perilla leaves, lettuce, coriander, and morning glory.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/fe1a26ac1abe4965abac2a042e3cc5ad.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 44,
+                    "name": "Tomato and Crab Noodle Soup (Bún riêu)",
+                    "price": 30000,
+                    "description": "Bún riêu is a crab-based Vietnamese noodle soup. The dish is made in several versions, but the most popular one is made with a tomato base and goes under the name bún riêu cua. The soups are prepared with different broths, but they are always infused with crab paste and come served with vermicelli noodles, while the toppings typically include crab meat, pork, tofu, tomatoes, blood jelly, and a selection of fresh greens such as perilla or bean sprouts.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/38238523530046a0bc9e1e56381dfb12.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 45,
+                    "name": "Quang-Style Noodles (Mì Quảng)",
+                    "price": 50000,
+                    "description": "This Vietnamese classic consists of a combination of flat rice noodles and yellow egg noodles that are served with a small amount of flavorful meat broth and crispy fresh vegetables and herbs such as banana blossoms, lettuce, cilantro, scallions, and Vietnamese coriander.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/0bcb913f20694ac1a459e2a0b9e5357a.jpg?w=905&h=510",
+                    "categoryId": 7
+                },
+                {
+                    "id": 46,
+                    "name": "Beef Pho (Phở bò)",
+                    "price": 50000,
+                    "description": "This beef-based version of pho is prepared with assorted cuts and parts of beef - the stock is made from beef bones, shank, ox tail, and neck, while the toppings include thinly sliced fatty brisket (gầu), flank, eye-round steak, tripe, cooked and raw beef (tái nạm), tendon (gân), or beef balls (phở bò viên), but the latter version is not that popular in Vietnam.",
+                    "image": "https://cdn.tasteatlas.com//images/dishes/0c53702f674c49c2a281717f92c48a7c.jpg?w=905&h=510",
+                    "categoryId": 7
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Night Food"
+        },
+        {
+            "id": 2,
+            "name": "Breakfasts"
+        },
+        {
+            "id": 3,
+            "name": "Bread"
+        },
+        {
+            "id": 4,
+            "name": "Fruits"
+        },
+        {
+            "id": 5,
+            "name": "Rice"
+        },
+        {
+            "id": 6,
+            "name": "Drinks"
+        },
+        {
+            "id": 7,
+            "name": "Noodles"
+        }
+    ]
+}

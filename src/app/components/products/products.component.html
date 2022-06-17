@@ -1,0 +1,27 @@
+<div class="product-menu">
+    <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+        <li><a routerLink="../products" (click)="onCategoryChange(-1)">All Products</a></li>
+        <li *ngFor="let category of categoryList" (click)="onCategoryChange(category.id)"><a class="top-product">{{category.name}}</a></li>
+        <!-- [routerLink]="['../products', category.id]" -->
+    </ul>
+</div>
+<div style="background: url(../../../assets/image/auth-bg.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="container">
+        <div class="product"
+            *ngFor="let product of products | paginate: { itemsPerPage: 9, currentPage: p } | filter:searchString:'name'; let i = index">
+            <img src="{{product.image}}">
+            <div class="product-detail">
+                <a id="name-product" [routerLink]="['/products', product.id]"
+                    style="font-weight: bold">{{product.name}}</a><br>
+                <p style="font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100ch; color: #cdcdcd"
+                    [title]="product.description">{{product.description}}</p>
+            </div>
+            <div class="product-price">
+                <span id="price"
+                    style="font-weight: bold; letter-spacing: 0.5px; font-family: sans-serif; color: #cdcdcd">đ{{product.price}}</span>
+            </div>
+            <button id="button" (click)="addToCart(product)">Add to cart</button>
+        </div>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
