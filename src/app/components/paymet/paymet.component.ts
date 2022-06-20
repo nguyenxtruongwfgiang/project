@@ -10,11 +10,17 @@ import { UserService } from '../service/user/user.service';
 export class PaymetComponent implements OnInit {
 
   public checkoutDetails: any = [];
+  public checkoutDetail: any = [];
 
   constructor(private router: Router, private userService: UserService) { }
 
   ngOnInit(): void {
     this.getDataDetails();
+    this.checkoutDetails.forEach((value: any) => {
+      console.log(value);
+      this.checkoutDetail.push(value.cart);
+    });
+    console.log(this.checkoutDetails)
   }
 
   
